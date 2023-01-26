@@ -47,7 +47,7 @@ var cars = new Array('Toyota', 'Nissan', 'Mercedes', 'Buick', 'Porsche');
 // false（必须使用索引号，而不是数组元素的值）
 
 'length' in cars;
-// rue（length是一个数组属性）
+// true（length是一个数组属性）
 
 Symbol.iterator in cars;
 // true（数组可迭代，只在 ES2015+ 上有效）
